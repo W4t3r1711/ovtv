@@ -364,45 +364,64 @@ button:hover{
   
   
 
-
-
-
 @media screen and (max-width: 600px) {
-    .body-chat{
-        width: 0%;
-        opacity: 0;
-      
-    
-      }
-    .container{
-        width: 100%;
+    .stream-box{
+        right: 0px;
 
 
     }
+    .chanel-panel{
+        opacity: 0;
+    }
+    .side-strea-box{
+        height:30%;
+    }
+
+    .container{
+        
+        left: 0px;
+        right: 0px;
+        width: 660px;
+    }
+  
+   
     .header{  zoom: 0.85; 
         -moz-transform: scale(0.85); 
         -moz-transform-origin: 0 0;}
-
-
-
+  
+  
+  
     .middle-section-1{
-        margin-left: -520px;
-
-
+        margin-left: -360px;
+  
+  
     }
     .main-logo{
-        margin-left: -150px;
+        margin-left: 0px;
+        left: 0px;
+       
     
         
     }
-    .body-chat{
-        width: 0%;
-        opacity: 0;
-      
-    
+
+      .left-section{
+        margin-left: 20px;
+        
+  
       }
- 
-}
+      .stream-box{
+        height: 30%;
+
+
+       
+      }
+      .stream{
+        width: 100%;
+
+      }
+  }
+
+
 
 
 
