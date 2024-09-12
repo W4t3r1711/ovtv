@@ -364,7 +364,7 @@ button:hover{
   
   
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 430px) {
     .stream-box{
         right: 0px;
 
@@ -373,16 +373,9 @@ button:hover{
     .chanel-panel{
         opacity: 0;
     }
-    .side-strea-box{
-        height:30%;
-    }
+   
 
-    .container{
-        
-        left: 0px;
-        right: 0px;
-        width: 660px;
-    }
+  
   
    
     .header{  zoom: 0.85; 
@@ -392,20 +385,25 @@ button:hover{
   
   
     .middle-section-1{
-        margin-left: -360px;
+        margin-left: -700px;
+        zoom: 0.6; 
+        -moz-transform: scale(0.6); 
+        -moz-transform-origin: 0 0;}
   
   
-    }
+  
+  
     .main-logo{
         margin-left: 0px;
         left: 0px;
+        width: 50px;
        
     
         
     }
 
       .left-section{
-        margin-left: 20px;
+        margin-left: 120px;
         
   
       }
@@ -418,8 +416,10 @@ button:hover{
       .stream{
         width: 100%;
 
-      }
-  }
+      } 
+    }
+
+  
 
 
 

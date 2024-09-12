@@ -88,7 +88,16 @@ html::-webkit-scrollbar-thumb:hover{
 
 
 
+@media screen and (max-width: 430px) {
+  .container{
+        
+    left: 0px;
+    right: 0px;
+    width:660px;
+}
 
+
+}
 
 
 

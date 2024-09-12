@@ -298,9 +298,9 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 430px){
     .chat-box{
-        width: 630px;
+        width:  660px;
         top: 55%;
         height: 44%;
        

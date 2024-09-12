@@ -342,3 +342,21 @@ outline:2px  solid rgb(0, 255, 194);
 
 
     }
+
+
+
+    @media screen and (max-width: 430px) {
+    .side-strea-box{
+        height: 30%;
+        
+         }
+   
+    
+    .stream-box{
+        zoom: 0.1; 
+        -moz-transform: scale(0.1); 
+        -moz-transform-origin: 0 0;
+
+
+    }
+}
