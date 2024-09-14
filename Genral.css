@@ -12,14 +12,58 @@ p{
     font-family: poppins,Arial;
 }
 body{
+  height: 1400px;
    
 background-color: var(--Light_BLUE);
 
 
 
 }
+button{
+  font-family: poppins,Arial;
+  
+  
+
+}
+.body2{
+  position: absolute;
+  z-index: 10;
+
+  width: 100%;
+  height: 100%;
+}
+button:hover{
+  cursor: pointer;
+  font-weight: 500;
+
+}
+.back-ground-pic{
+  height: 110%;
+
+  position: absolute;
+  width: 100%;
 
 
+
+  
+}
+.background-containter{
+ position: absolute;
+  right: -10px;
+  left: 0px;
+  height: 1400px;
+  background: rgba(0, 4, 10, 0.4);
+  backdrop-filter: blur(14px);
+  top: 60px;
+  z-index: 1;
+
+  
+
+
+ 
+
+
+}
 
 html{ 
    
@@ -81,7 +125,7 @@ html::-webkit-scrollbar-thumb:hover{
     right: 10%;
     top: 80px;
     bottom: 0px;
-    height: 2000px;
+    height:110%;
    
 }
 
